@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  Expenses
 //
-//  Created by Tech Innovator on 11/30/17.
-//  Copyright © 2017 Tech Innovator. All rights reserved.
 //
 
 import UIKit
