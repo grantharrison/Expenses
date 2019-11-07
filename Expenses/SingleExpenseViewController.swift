@@ -2,6 +2,9 @@
 //  SingleExpenseViewController.swift
 //  Expenses
 //
+//  Created by Tech Innovator on 11/30/17.
+//  Copyright © 2017 Tech Innovator. All rights reserved.
+//
 
 import UIKit
 
@@ -29,16 +32,12 @@ class SingleExpenseViewController: UIViewController {
             datePicker.date = date
         }
 
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        nameTextField.resignFirstResponder()
-        amountTextField.resignFirstResponder()
     }
     
     @IBAction func saveExpense(_ sender: Any) {
@@ -70,8 +69,6 @@ class SingleExpenseViewController: UIViewController {
                 print("Context could not be saved")
             }
         }
-        
-        
     }
 }
 

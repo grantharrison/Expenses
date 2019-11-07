@@ -27,12 +27,10 @@ public class Expense: NSManagedObject {
             return nil
         }
         
-        self.init(entity: Expense.entity(), insertInto: managedContext)
+        self.init(entity: Expense.entity() , insertInto: managedContext)
         
         self.name = name
         self.amount = amount
-        self.date = date 
-        
+        self.date = date
     }
-    
 }
